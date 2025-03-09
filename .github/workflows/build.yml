@@ -87,7 +87,11 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ env.BRANCH }}-${{ hashFiles('**/package-lock.json') }}
       - name: Install dependencies
         if: ${{ steps.node_modules_cache_id.outputs.cache-hit != 'true' }}
+<<<<<<< HEAD
         run: npm install
+=======
+        run: npm install
+>>>>>>> 369a8d54a64384b4a7954ec5e7890fd945352b39
       - name: Build
         run: npm run build
       - name: Zip artifact for upload
