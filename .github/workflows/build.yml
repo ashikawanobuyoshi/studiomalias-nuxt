@@ -91,7 +91,6 @@ jobs:
         run: npm install
 =======
         run: npm install
->>>>>>> 369a8d54a64384b4a7954ec5e7890fd945352b39
       - name: Build
         run: npm run build
       - name: Zip artifact for upload
