@@ -2,7 +2,7 @@
 <template>
     <div>
       <header>
-        <h1>ようこそスタジオマリアスのホームページへ!</h1>
+        <h1>ようこそstudiomaliasのホームページへ!</h1>
         <nav>
           <ul>
             <li><a href="#about">私について</a></li>
