@@ -71,10 +71,10 @@
   })
   
   const images = [
-    'path/to/image1.jpg',
-    'path/to/image2.jpg',
-    'path/to/image3.jpg',
-    'path/to/image4.jpg'
+    '/image/image1.jpg',
+    '/image/image2.jpg',
+    '/image/image3.jpg',
+    '/image/image4.jpg'
   ]
   
   const currentImage1 = ref(images[0])
